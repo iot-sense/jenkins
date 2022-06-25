@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('build_score_manager') {
+    stage('build_airflow') {
       steps {
-        sh 'sh "/code/allen/new-icu/build/build_score_manager.sh"'
+        sh 'sh "/code/allen/new-icu/build/build_airflow.sh"'
       }
     }
 
