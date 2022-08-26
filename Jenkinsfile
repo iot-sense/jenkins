@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('nckuh_build_data_manger') {
       steps {
-        sh 'sh "/code/allen/ntuh/build/build_reqproc.sh"'
+        sh 'sh "/code/alice/ntuh/AI/reqproc-api/build.sh"'
       }
     }
 
